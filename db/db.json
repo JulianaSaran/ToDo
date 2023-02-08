@@ -1,0 +1,186 @@
+{
+  "List": {
+    "activities": [
+      {
+        "id": 1,
+        "tipo": "Supermercado"
+      },
+      {
+        "id": 2,
+        "tipo": "Academia"
+      },
+      {
+        "id": 3,
+        "tipo": "Limpar a casa"
+      },
+      {
+        "id": 4,
+        "tipo": "Lavar a roupa"
+      },
+      {
+        "id": 5,
+        "tipo": "Regar as plantas"
+      },
+      {
+        "id": 6,
+        "tipo": "Programar"
+      },
+      {
+        "id": 7,
+        "tipo": "Estudar"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Fazer"
+    },
+    {
+      "id": 2,
+      "tipo": "Feito"
+    },
+    {
+      "id": 3,
+      "tipo": "Adiado"
+    }
+  ],
+  "ToDo": [
+    {
+      "name": "Juliana",
+      "tasks": [
+        "4",
+        "7"
+      ],
+      "status": "Fazer",
+      "id": 1
+    },
+    {
+      "name": "Juliana",
+      "tasks": [
+        "1"
+      ],
+      "status": "Fazer",
+      "id": 2
+    },
+    {
+      "name": "Thiago",
+      "tasks": [
+        "2"
+      ],
+      "status": "Fazer",
+      "id": 3
+    },
+    {
+      "name": "AAA",
+      "tasks": [
+        "3"
+      ],
+      "status": "Fazer",
+      "id": 4
+    },
+    {
+      "name": "Juliana",
+      "tasks": [
+        "7"
+      ],
+      "status": "Fazer",
+      "id": 5
+    },
+    {
+      "name": "Juliana",
+      "tasks": [
+        "6"
+      ],
+      "status": "Fazer",
+      "id": 6
+    },
+    {
+      "name": "e",
+      "tasks": [
+        "2"
+      ],
+      "status": "Fazer",
+      "id": 7
+    },
+    {
+      "name": "a",
+      "tasks": [
+        "3"
+      ],
+      "status": "Fazer",
+      "id": 8
+    },
+    {
+      "name": "Juliana",
+      "tasks": [
+        "3"
+      ],
+      "status": "Fazer",
+      "id": 9
+    },
+    {
+      "name": "Juliana",
+      "tasks": [
+        "2"
+      ],
+      "status": "Fazer",
+      "id": 10
+    },
+    {
+      "name": "Juliana",
+      "tasks": [
+        "6"
+      ],
+      "status": "Fazer",
+      "id": 11
+    },
+    {
+      "name": "Juliana",
+      "tasks": [
+        "4"
+      ],
+      "status": "Fazer",
+      "id": 12
+    },
+    {
+      "name": null,
+      "tasks": [
+        "1"
+      ],
+      "status": "Fazer",
+      "id": 13
+    },
+    {
+      "name": "",
+      "tasks": [],
+      "status": "Fazer",
+      "id": 14
+    },
+    {
+      "name": null,
+      "tasks": [
+        "1"
+      ],
+      "status": "Fazer",
+      "id": 15
+    },
+    {
+      "name": "",
+      "tasks": [
+        "6"
+      ],
+      "status": "Fazer",
+      "id": 16
+    },
+    {
+      "name": "",
+      "tasks": [
+        "2",
+        "4"
+      ],
+      "status": "Fazer",
+      "id": 17
+    }
+  ]
+}
