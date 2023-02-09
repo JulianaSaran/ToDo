@@ -8,7 +8,7 @@
       </div>
       <div class="day-container">
         <label for="day">Data</label>
-        <DayComponent/>
+        <DayComponent />
       </div>
       <div id="task-container" class="input-container">
         <label id="task-title" for="taks">Qual sua missão de hoje?:</label>
@@ -27,6 +27,7 @@
 <script>
 import DayComponent from "@/components/DayComponent.vue";
 import MessageComponent from "@/components/MessageComponent.vue";
+import Datepicker from "@vuepic/vue-datepicker";
 
 export default {
   name: 'FormComponent',
@@ -38,7 +39,7 @@ export default {
       activities: null,
       name: null,
       tasks: {},
-      status: "Fazer"
+      status: "Fazer",
     }
   },
   methods: {
@@ -48,13 +49,14 @@ export default {
 
       this.activities = data.activities;
     },
+
     async createTask(e) {
       e.preventDefault();
 
       const data = {
         name: this.name,
         tasks: Object.keys(this.tasks),
-        status: "Fazer"
+        status: "Fazer",
       }
       const dataJson = JSON.stringify(data);
 
@@ -75,6 +77,7 @@ export default {
       //Limpar os campos
       this.name = "";
       this.tasks = {};
+
     }
   },
   mounted() {
